@@ -1,5 +1,21 @@
 <html>
   <head>
     <title>Projeto Calculadora</title>
+    <p>Uma simples calculadora em JavaScript com as funçoões básicas.</p>
   </head>
+  <body>
+    <div class='calculadora'>
+      <div class='display'>
+        <input id='display' placeholder='0'disabled>
+        <h2 id='historico'></h2>
+      </div>
+
+      <div class='linha'>
+        <button class='ce' onclick='limpar()'>CE</button>
+          <button class='c' onclick='limpar()'>C</button>
+          <button class='percent' onclick='percentual()'>%</button>
+          <button class='divisao' onclick='add_operador("/")'>/</button>
+      </div>
+    </div>
+  </body>
 </html>
